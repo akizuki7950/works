@@ -49,7 +49,7 @@ body {
 <p>3. ccc</p>
 <hr size="2" align="center" noshade width="90%" color="0000ff">
 
-<a href="https://www.facebook.com/weisson.ho">Facebook</a>
+<p><a href="https://www.facebook.com/weisson.ho">Facebook</a><p>
 
 <p><b><marquee>AAAAAAAAAAAAAAAAAAAAAAA</marquee></b></p>
 <body onload="startTime()">
