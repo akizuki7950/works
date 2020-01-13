@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>何品樺's page</title>
 <style>
 body {
   background-color: black;
@@ -13,7 +13,7 @@ body {
 </head>
 <body>
 
-<h1>This is a Heading</h1>
+<h1>About me</h1>
 <p>This is a paragraph.</p>
 <p>Edit the code in the window to the left, and click "Run" to view the result.</p>
 <img src="avatar.png" alt="Avatar" style="width:200px">
