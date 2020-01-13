@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>
+    function startTime(){
+      var today = new Date();
+      var hh = today.getHours();
+      var mm = today.getMinutes();
+      var ss = today.getSeconds();
+      mm = checkTime(mm);
+      ss = checkTime(ss);
+      document.getElementById('clock').innerHTML = hh + ":" + mm + ":" + ss;
+      var timeoutId = setTimeout(startTime, 500);
+    }
+
+    function checkTime(i){
+      if(i < 10) {
+        i = "0" + i;
+      }
+      return i;
+    }
+  
+  </script>
 <title>何品樺's page</title>
 <style>
 body {
@@ -9,6 +29,10 @@ body {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+  <body onload="startTime()">
+    簡單的時鐘
+    <div id="clock"></div>
+  </body>
 </style>
 </head>
 <body>
@@ -20,7 +44,15 @@ body {
 
 <hr size="2" align="center" noshade width="90%" color="0000ff">
 <h2>Interests</h2>
-<p>Edit the code in the window to the left, and click "Run" to view the result.</p>
+<p>繪畫</p>
+<p>烹飪</p>
+<hr size="2" align="center" noshade width="90%" color="0000ff">
+<h3>1111</h3>
+<p>1. aaa</p>
+<p>2. bbb</p>
+<p>3. ccc</p>
+<hr size="2" align="center" noshade width="90%" color="0000ff">
+<p><b><marquee>AAAAAAAAAAAAAAAAAAAAAAA</marquee></b></p>
 
 </body>
 </html>
