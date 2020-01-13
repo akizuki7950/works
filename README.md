@@ -29,10 +29,6 @@ body {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-  <body onload="startTime()">
-    簡單的時鐘
-    <div id="clock"></div>
-  </body>
 </style>
 </head>
 <body>
@@ -53,6 +49,10 @@ body {
 <p>3. ccc</p>
 <hr size="2" align="center" noshade width="90%" color="0000ff">
 <p><b><marquee>AAAAAAAAAAAAAAAAAAAAAAA</marquee></b></p>
+<body onload="startTime()">
+    簡單的時鐘
+    <div id="clock"></div>
+  </body>
 
 </body>
 </html>
