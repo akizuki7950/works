@@ -15,7 +15,7 @@ body {
 
 <h1>About me</h1>
 <img src="avatar.jpg" alt="Avatar" style="width:200px">
-<p></p>
+<p>清華大學資訊工程學系</p>
 <p>Edit the code in the window to the left, and click "Run" to view the result.</p>
 
 </body>
