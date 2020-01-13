@@ -48,6 +48,9 @@ body {
 <p>2. bbb</p>
 <p>3. ccc</p>
 <hr size="2" align="center" noshade width="90%" color="0000ff">
+
+<a href="https://www.facebook.com/weisson.ho">Facebook</a>
+
 <p><b><marquee>AAAAAAAAAAAAAAAAAAAAAAA</marquee></b></p>
 <body onload="startTime()">
     簡單的時鐘
