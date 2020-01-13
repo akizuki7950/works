@@ -14,9 +14,9 @@ body {
 <body>
 
 <h1>About me</h1>
-<p>This is a paragraph.</p>
+<img src="avatar.jpg" alt="Avatar" style="width:200px">
+<p></p>
 <p>Edit the code in the window to the left, and click "Run" to view the result.</p>
-<img src="avatar.png" alt="Avatar" style="width:200px">
 
 </body>
 </html>
